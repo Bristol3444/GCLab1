@@ -1,0 +1,118 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    color: #69696a;
+}
+/*Styling the navbar*/
+h4 {
+    display: inline;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 5px;
+    color: black;
+    text-transform: lowercase;
+}
+ul {
+    display: inline;
+    margin: 5px;
+}
+li {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin: 15px;
+    font-size: 18px;
+}
+.top {
+  margin: 2em;
+}
+/* styling the navbar button*/
+.nav-btn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:-10px;
+    border-radius: 25px;
+}
+/*style the page's body*/
+.total {
+    margin-top: 100px;
+}
+#body-one {
+    width: 45%;
+    display: inline-block;
+    height: 100px;
+    margin-left: 30px;
+}
+/*styling the right side of the body, and the three colored Dots*/
+#body-two {
+    display: inline-block;
+    width: 45%;
+    float: right;
+}
+.dotone {
+    height: 360px;
+    width: 360px;
+    background-color:rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.dottwo {
+    height: 175px;
+    width: 175px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 350px;
+}
+.dotthree {
+    height: 225px;
+    width: 225px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 450px;
+}
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    text-transform: lowercase;
+}
+/*styling the scroll down button*/
+.scrll-btn {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 350px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+/*paragraph styling*/
+p {
+    border-left: 3px solid lightgray;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
